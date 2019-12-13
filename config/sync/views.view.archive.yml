@@ -1,4 +1,4 @@
-uuid: f26985bf-ad3a-44d9-ab65-d6ae441aa4ad
+uuid: 9448375d-ef66-4172-b95e-5e41dc834ce9
 langcode: en
 status: false
 dependencies:
@@ -16,7 +16,6 @@ description: 'All content, by month.'
 tag: default
 base_table: node_field_data
 base_field: nid
-core: '8'
 display:
   default:
     id: default
@@ -113,6 +112,8 @@ display:
           group: 0
           expose:
             operator: '0'
+            operator_limit_selection: false
+            operator_list: {  }
           plugin_id: boolean
           entity_type: node
           entity_field: status
@@ -141,6 +142,8 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

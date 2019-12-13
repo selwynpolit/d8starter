@@ -1,4 +1,4 @@
-uuid: 85ef0c0f-73d2-4687-b126-51f0fcc9d369
+uuid: e97293d5-77f5-4293-b91b-cc4440d6439f
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - website@xr
+  - website@d8starter.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

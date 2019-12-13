@@ -1,4 +1,4 @@
-uuid: dd377e6d-e7b6-48b1-9e53-7f4f7ab49eda
+uuid: b7edf354-bffa-4e76-9d1c-2e850b6f3810
 langcode: en
 status: true
 dependencies:
@@ -15,7 +15,6 @@ description: 'Recent comments.'
 tag: default
 base_table: comment_field_data
 base_field: cid
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -179,6 +178,8 @@ display:
           plugin_id: boolean
           expose:
             operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
           group: 1
           entity_type: comment
           entity_field: status
@@ -191,6 +192,8 @@ display:
           plugin_id: boolean
           expose:
             operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
           group: 1
           entity_type: node
           entity_field: status

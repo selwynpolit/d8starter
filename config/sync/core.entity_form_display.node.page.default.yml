@@ -1,4 +1,4 @@
-uuid: 71651e97-9551-4954-9063-16f59afe072c
+uuid: a0144b74-17f0-4c11-bf9f-6a8072aa7409
 langcode: en
 status: true
 dependencies:
@@ -23,6 +23,7 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
   created:
     type: datetime_timestamp
@@ -73,5 +74,6 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
 hidden: {  }

@@ -1,4 +1,4 @@
-uuid: 8a062d1a-0529-4ab5-b7b1-beb76e46fd06
+uuid: 66a02020-644b-4114-90e7-7045cb8e3cf2
 langcode: en
 status: false
 dependencies:
@@ -16,7 +16,6 @@ description: 'All content, by letter.'
 tag: default
 base_table: node_field_data
 base_field: nid
-core: '8'
 display:
   default:
     id: default
@@ -336,6 +335,8 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

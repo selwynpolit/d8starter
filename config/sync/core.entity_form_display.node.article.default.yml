@@ -1,4 +1,4 @@
-uuid: c2fd80c9-eb2f-4736-99d9-476ecb9446e7
+uuid: 4d653922-c6ad-41f3-8fe5-b37acf51250d
 langcode: en
 status: true
 dependencies:
@@ -29,6 +29,7 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
   comment:
     type: comment_default
@@ -58,6 +59,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
   path:
     type: path
@@ -102,5 +104,6 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
 hidden: {  }

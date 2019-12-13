@@ -1,4 +1,4 @@
-uuid: 6bac49df-6643-405b-a30a-cea64aa88bf7
+uuid: fd48a1a3-36fa-4ae2-bd37-fd1206a04bea
 langcode: en
 status: true
 dependencies:
@@ -22,6 +22,7 @@ content:
       rows: 9
       summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
   info:
     type: string_textfield

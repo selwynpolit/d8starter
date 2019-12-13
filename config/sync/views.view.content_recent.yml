@@ -1,4 +1,4 @@
-uuid: 414a0db4-317f-4b89-a529-73fc292e6c25
+uuid: 8295fc73-838a-49fe-983c-d1b901c091a5
 langcode: en
 status: true
 dependencies:
@@ -14,7 +14,6 @@ description: 'Recent content.'
 tag: default
 base_table: node_field_data
 base_field: nid
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -188,6 +187,8 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -227,6 +228,8 @@ display:
             remember_roles:
               authenticated: authenticated
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

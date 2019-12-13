@@ -7,20 +7,18 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor: 0
-  ckeditor_media_embed: 0
   color: 0
   comment: 0
   config: 0
   contact: 0
   contextual: 0
   ctools: 0
-  date_recur: 0
   datetime: 0
-  datetime_range: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
+  field_tools: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -28,17 +26,15 @@ module:
   history: 0
   image: 0
   link: 0
-  menu_trail_by_path: 0
   menu_ui: 0
-  metatag: 0
   module_filter: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
+  path_alias: 0
   quickedit: 0
   rdf: 0
-  save_edit: 0
   search: 0
   shortcut: 0
   system: 0
