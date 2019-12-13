@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb07fb02eeb5a0e78052ef925e5e35d1",
+    "content-hash": "c1e950390f4ecfcb3a767aa75e75ffa4",
     "packages": [
         {
             "name": "academicpuma/citeproc-php",
@@ -5460,6 +5460,57 @@
             "homepage": "https://www.drupal.org/project/fences",
             "support": {
                 "source": "https://git.drupalcode.org/project/fences"
+            }
+        },
+        {
+            "name": "drupal/field_tools",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_tools.git",
+                "reference": "8.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_tools-8.x-1.0-alpha4.zip",
+                "reference": "8.x-1.0-alpha4",
+                "shasum": "800ccc83f43d890202cac5e2ca4cf6528cce885d"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha4",
+                    "datestamp": "1507897766",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "joachim",
+                    "homepage": "https://www.drupal.org/user/107701"
+                },
+                {
+                    "name": "tedbow",
+                    "homepage": "https://www.drupal.org/user/240860"
+                }
+            ],
+            "description": "Provides tools for working with fields, such as cloning to other entities and bundles.",
+            "homepage": "https://www.drupal.org/project/field_tools",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_tools"
             }
         },
         {
@@ -15980,6 +16031,7 @@
         "drupal/datetime_extras": 15,
         "drupal/feeds": 15,
         "drupal/fences": 15,
+        "drupal/field_tools": 15,
         "drupal/file_entity": 10,
         "drupal/filefield_paths": 10,
         "drupal/fivestar": 20,
