@@ -94,6 +94,7 @@
         "drupal/pathauto": "^1.6",
         "drupal/permissions_by_term": "^2.10",
         "drupal/rabbit_hole": "^1.0@beta",
+        "drupal/redirect": "^1.5",
         "drupal/rename_admin_paths": "^1.1",
         "drupal/rules": "^3.0@alpha",
         "drupal/save_edit": "^1.2",
